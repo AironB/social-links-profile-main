@@ -1,0 +1,57 @@
+.container{
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.contenedor{
+    background-color: #181616;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    width: 20rem;
+    margin: 10rem;
+}
+.photo{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
+}
+.author{
+    color: white;
+    
+}
+.location-span{
+    color: chartreuse;
+}
+.ocupation{
+    color: aliceblue;
+}
+.redes{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style:hidden;
+
+}
+.social{
+    border-radius: 10%;
+    border-style:groove;
+    background-color: #363636;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-color: #000;
+    border-style: hidden;
+    margin: 0.5rem;
+}
